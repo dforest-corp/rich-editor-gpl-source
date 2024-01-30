@@ -1,0 +1,29 @@
+{
+  "name": "rich-editor-gpl-source",
+  "version": "1.0.0",
+  "description": "Rich Editor Powered by CKEditor5. This is a GPL source code.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "author": "ytoda",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/dforest-corp/rich-editor-gpl-source",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-build-multi-root": "^41.0.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-tsconfig-paths": "^4.3.1"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-react": "^6.2.0",
+    "ckeditor5-custom-build": "file:ckeditor5",
+    "clsx": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
